@@ -12,7 +12,7 @@ export class ClipBoard extends React.Component<Props> {
     children: undefined,
     text: "",
   };
-
+  //  TODO :: 코드 리팩토링 및 재배포 해야함 테스트도!!
   onClick = (event) => {
     const { text, onCopy, children } = this.props;
 
