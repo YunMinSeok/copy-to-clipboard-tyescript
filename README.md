@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# copy-to-clipboard-typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📄 Would you like to use the TypeScript clipboard?
 
-## Available Scripts
+<!-- s : svg -->
+<div style="padding : 40px">
 
-In the project directory, you can run:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `npm start`
+</div>
+<!-- e : svg -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div>
+    Based on <a href ="https://www.npmjs.com/package/copy-to-clipboard">copy-to-clipboard</a>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- s : introduce -->
+<div>
+  Copy to clipboard React component(Typescript)
+</div>
+<!-- e : introduce -->
+<br/><br/>
+<!-- s : Getting started -->
 
-### `npm test`
+## 🎯 Getting started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Install</h3>
 
-### `npm run build`
+```sh
+npm install --save copy-to-clipboard-typescript
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Import</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```js
+import { CopyToClipboard } from "copy-to-clipboard-typescript";
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- e : Getting started -->
 
-### `npm run eject`
+<br/><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- s : How to Use -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👀 How to use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3>Add this code</h3>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```js
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/><br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- s : License -->
 
-### Code Splitting
+## 🪄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[MIT License](./LICENSE)
 
-### Analyzing the Bundle Size
+Copyright 2022. YunMinSeok all rights reserved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- e : License -->
