@@ -48,7 +48,15 @@ import { CopyToClipboard } from "copy-to-clipboard-typescript";
 <h3>Add this code</h3>
 
 ```js
+import {ClipBoard} from copy-to-clipboard-typescript;
 
+const test =() => {
+  const [text,setText] = useState();
+  <ClipBoard text={text}>
+    <div onClick={()=> setText("This is Copy Text")}>This is Copy Text</div>
+  </ClipBoard>
+
+}
 ```
 
 <br/><br/>
