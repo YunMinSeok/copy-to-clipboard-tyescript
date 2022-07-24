@@ -3,7 +3,7 @@ import copy from "copy-to-clipboard";
 
 interface Props {
   onCopy?: Function;
-  children?: JSX.Element;
+  children?: React.ReactElement;
   text: string;
 }
 export class ClipBoard extends React.Component<Props> {
@@ -34,7 +34,7 @@ export class ClipBoard extends React.Component<Props> {
 
   render() {
     const { text: _text, onCopy: _onCopy, children, ...props } = this.props;
-    const element = React.Children.only(children);
+    const element = React.Children.only(children)!;
 
     return React.cloneElement(element, { ...props, onClick: this.onClick });
   }
