@@ -2,8 +2,8 @@ import React from "react";
 import copy from "copy-to-clipboard";
 
 interface Props {
-  onCopy: Function;
-  children: JSX.Element;
+  onCopy?: Function;
+  children?: JSX.Element;
   text: string;
 }
 export class ClipBoard extends React.Component<Props> {
