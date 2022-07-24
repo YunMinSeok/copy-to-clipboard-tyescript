@@ -12,7 +12,7 @@ export class ClipBoard extends React.Component<Props> {
     children: undefined,
     text: "",
   };
-  onClick = (event) => {
+  onClick = (event: React.MouseEvent<HTMLImageElement>) => {
     const { text, onCopy, children } = this.props;
 
     const element = React.Children.only(children);
