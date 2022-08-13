@@ -1,1 +1,0 @@
-export { ClipBoard } from "./Component";
