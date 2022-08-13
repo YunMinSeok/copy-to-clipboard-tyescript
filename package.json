@@ -1,6 +1,6 @@
 {
   "name": "copy-to-clipboard-typescript",
-  "version": "1.4.8",
+  "version": "1.5.0",
   "description": "Copy-to-clipboard Typescript component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
