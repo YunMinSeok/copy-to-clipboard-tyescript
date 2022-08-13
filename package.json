@@ -1,6 +1,6 @@
 {
   "name": "copy-to-clipboard-typescript",
-  "version": "1.4.5",
+  "version": "1.4.8",
   "description": "Copy-to-clipboard Typescript component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -24,13 +24,13 @@
     "url": "https://github.com/YunMinSeok/copy-to-clipboard-tyescript/issues"
   },
   "homepage": "https://github.com/YunMinSeok/copy-to-clipboard-tyescript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "contributors": [
     "yunminseok"
   ],
   "scripts": {
     "start": "react-scripts start",
-    "build": "tsc src/index.ts",
+    "build": "rm -rf dist && tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
